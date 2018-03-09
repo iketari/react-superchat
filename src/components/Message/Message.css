@@ -1,0 +1,77 @@
+.message-box .picture {
+	float: left;
+	width: 50px;
+	display: block;
+	padding-right: 10px;
+}
+
+.picture img {
+	width: 43px;
+	height: 43px;
+	border-radius: 5px;
+}
+
+.message-box.right-img .picture img {
+    filter: sepia(50%);
+}
+
+.picture span {
+	font-weight: bold;
+	font-size: 10px;
+	clear: both;
+	display: block;
+	text-align: center;
+	margin-top: 3px;
+}
+
+.message {
+	background: #fff;
+	display: inline-block;
+	padding: 13px;
+	width: 274px;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    position: relative;
+    text-align: left;
+}
+
+.message:before {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 0;
+	border-right: 6px solid #fff;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	top: 10px;
+	margin-left: -6px;
+}
+
+.message span {
+	color: #555;
+	font-weight: bold;
+}
+
+.message p {
+	padding-top: 5px;
+}
+
+.message-box.right-img .picture {
+	float: right;
+	padding: 0;
+	padding-left: 10px;
+}
+
+.message-box.right-img .picture img {
+	float: right;
+}
+
+.message-box.right-img .message:before {
+	left: 100%;
+	margin-right: 6px;
+	margin-left: 0;
+	border-right: 6px solid transparent;
+	border-left: 6px solid #fff;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+}

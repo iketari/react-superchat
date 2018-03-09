@@ -1,0 +1,42 @@
+.chat__container {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.form__control-helper {
+	margin-left: 10px;
+}
+
+.header {
+	padding: 20px 20px 18px 20px;
+	background: #9b4dca;
+	color: #fff;
+}
+
+.header h2 {
+	font-size: 16px;
+	line-height: 15px;
+	display: inline-block;
+	letter-spacing: 0.05em;
+	margin-bottom: 0;
+}
+
+.header a {
+	color: whitesmoke;
+	font-size: x-small;
+	display: block;
+}
+
+.chat__box {
+	background: #ECECEC;
+	padding: 0 20px;
+	color: #a1a1a1;
+	overflow-y: auto;
+	height: calc(100vh - 281px);
+}
+
+.chat__box .message-box {
+	padding: 18px 0 10px;
+	clear: both;
+}
